@@ -86,7 +86,7 @@ class _SobreLayoutState extends State<SobreLayout> {
                     margin: EdgeInsets.only(bottom: 12),
                     child: Text(
                       'Desenvolvido por Nelson Manuel Garcia, Desenvolvedor de Software.',
-                      style: TextStyle(height: 1.5),
+                      style: TextStyle(height: 1.5, fontWeight: FontWeight.bold),
                       textAlign: TextAlign.center,
                     ),
                   ),
