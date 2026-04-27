@@ -150,7 +150,7 @@ class SinteseLayout extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: Icon(Icons.view_list),
+              leading: Icon(Icons.info),
               title: Text('Sobre'),
               onTap: () {
                 Navigator.pushNamed(context, '/sobre');

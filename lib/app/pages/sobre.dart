@@ -223,7 +223,7 @@ class _SobreLayoutState extends State<SobreLayout> {
                 Navigator.pushNamed(context, '/sintese');
               },),
             ListTile(
-              leading: Icon(Icons.view_list),
+              leading: Icon(Icons.info),
               title: Text('Sobre'),
               onTap: () {
                 //Navigator.pushNamed(context, '/sobre');

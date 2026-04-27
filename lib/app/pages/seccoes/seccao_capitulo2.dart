@@ -5,8 +5,7 @@ class SeccaoCapitulo2Layout extends StatelessWidget {
 
   final List seccoes = [
     {"id": 1, "titulo": "Secção I", "subtitulo": "Das Penas", "rota": "/capitulo2-seccao1-codigos"},
-    {"id": 2, "titulo": "Secção II", "subtitulo": "Dos Crimes", "rota": "/codigos-cap2"},
-    {"id": 3, "titulo": "Secção III", "subtitulo": "Disposições Finais", "rota": "/codigos-cap3"},
+    {"id": 2, "titulo": "Secção II", "subtitulo": "Dos Crimes Em Especial", "rota": "/capitulo2-seccao2-codigos"},
   ];
 
   SeccaoCapitulo2Layout({super.key});

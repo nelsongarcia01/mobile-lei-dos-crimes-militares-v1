@@ -455,10 +455,10 @@ class _HomeState extends State<Home> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(
-            icon: Icon(Icons.archive_outlined),
+            icon: Icon(Icons.book),
             label: 'Sintese',
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Sobre'),
+          BottomNavigationBarItem(icon: Icon(Icons.info), label: 'Sobre'),
         ],
       ),
 
@@ -504,7 +504,7 @@ class _HomeState extends State<Home> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.view_list),
+              leading: Icon(Icons.info),
               title: Text('Sobre'),
               onTap: () {
                 Navigator.pushNamed(context, '/sobre');

@@ -311,6 +311,7 @@ class Capitulo2Seccao1CodigosLayout extends StatelessWidget {
                     ),
                   ),
 
+
                   Container(
                     margin: EdgeInsets.only(bottom: 14),
                     child: Column(
@@ -331,7 +332,6 @@ class Capitulo2Seccao1CodigosLayout extends StatelessWidget {
                         ),
 
                         SizedBox(height: 10),
-
                         RichText(
                           textAlign: TextAlign.justify,
                           text: TextSpan(
@@ -1014,7 +1014,15 @@ class Capitulo2Seccao1CodigosLayout extends StatelessWidget {
                               ), // 👈 indentação da primeira linha
                               TextSpan(
                                 text:
-                                    "Para efeitos da presente lei, consideram-se repugnantes os crimes que afectem gravemente a reputação moral do infractor ou provoquem repulsa na opinião pública.",
+                                    "Nos crimes de insubordinação na execução do serviço de guarda e outros serviços especias, abuso de autoridade por palavras ou acções não violentas e negligências no serviço, as circunstâncias mencionadas nas alíneas ",
+                              ),
+                              TextSpan(
+                                text:
+                                    "a), b), c), d), g), l), j), m), p) e q) ", style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              TextSpan(
+                                text:
+                                    "do artigo anterior poderão determinar a conversão imediata do processo crime em disciplinar ou substituição da pena prevista nesta lei em pena disciplinar segundo o critério do Tribunal, no caso do processo crime ter chegado a julgamento.",
                               ),
                             ],
                           ),
@@ -1023,6 +1031,314 @@ class Capitulo2Seccao1CodigosLayout extends StatelessWidget {
                       ],
                     ),
                   ),
+
+                  Container(
+                    margin: EdgeInsets.only(bottom: 14),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                          'ARTIGO 12.º',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        Text(
+                          '(Medo)',
+                          style: TextStyle(fontWeight: FontWeight.w600),
+                          textAlign: TextAlign.center,
+                        ),
+
+                        SizedBox(height: 10),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.justify,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "O medo, ainda que insuperável, não é causa de justificação nos crimes militares",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    margin: EdgeInsets.only(bottom: 14),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                          'ARTIGO 13.º',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        Text(
+                          '(Tentativa)',
+                          style: TextStyle(fontWeight: FontWeight.w600),
+                          textAlign: TextAlign.center,
+                        ),
+
+                        SizedBox(height: 10),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.left,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "A tentativa é sempre punível nos crimes militares",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    margin: EdgeInsets.only(bottom: 14),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                          'ARTIGO 14.º',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        Text(
+                          '(Grupo)',
+                          style: TextStyle(fontWeight: FontWeight.w600),
+                          textAlign: TextAlign.center,
+                        ),
+
+                        SizedBox(height: 10),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.justify,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "Para efeitos da presente lei, chama-se grupo a reunião de dois ou mais indivíduos.",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    margin: EdgeInsets.only(bottom: 14),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                          'ARTIGO 15.º',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        Text(
+                          '(Prescrição)',
+                          style: TextStyle(fontWeight: FontWeight.w600),
+                          textAlign: TextAlign.center,
+                        ),
+
+                        SizedBox(height: 10),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.justify,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "A prescrição do procedimento criminal e das penas aplica-se o disposto na lei geral.",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    margin: EdgeInsets.only(bottom: 14),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                          'ARTIGO 16.º',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        Text(
+                          '(Execução Das Penas)',
+                          style: TextStyle(fontWeight: FontWeight.w600),
+                          textAlign: TextAlign.center,
+                        ),
+
+                        SizedBox(height: 10),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.justify,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "1. As penas de prisão impostas aos militares serão cumpridas nos estabelecimentos prisionais militares.",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+
+                        SizedBox(height: 6),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.justify,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "2. Não havendo estabelecimentos prisionais militares adequados, as penas de prisão serão cumpridas em lugar apropriado, designadamente nas unidades a que os condenados pertencem, sem prejuízo do serviço interno das mesmas unidades.",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+
+                        SizedBox(height: 6),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.justify,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "3. As penas de prisão maior serão cumpridas nos estabelecimentos penitenciários civis.",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+
+                        SizedBox(height: 6),
+                        Container(
+                          width: double.infinity,
+                          child: RichText(
+                            textAlign: TextAlign.justify,
+                            text: TextSpan(
+                              style: TextStyle(
+                                height: 1.5,
+                                fontSize: 14,
+                                color: Colors.black,
+                              ),
+                              children: [
+                                WidgetSpan(
+                                  child: SizedBox(width: 20), // 👈 indent real
+                                ), // 👈 indentação da primeira linha
+                                TextSpan(
+                                  text:
+                                      "4. Havendo expulsão, a pena, qualquer que ela seja, será cumprida em estabelecimento civil.",
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        
+                      ],
+                    ),
+                  ),
+
                 ],
               ),
             ),
