@@ -26,6 +26,7 @@ class _SobreLayoutState extends State<SobreLayout> {
         title: Text(widget.titulo),
         backgroundColor: Colors.deepPurple,
         titleTextStyle: TextStyle(color: Colors.white),
+        foregroundColor: Colors.white,
       ),
 
       body: Column(
@@ -86,7 +87,10 @@ class _SobreLayoutState extends State<SobreLayout> {
                     margin: EdgeInsets.only(bottom: 12),
                     child: Text(
                       'Desenvolvido por Nelson Manuel Garcia, Desenvolvedor de Software.',
-                      style: TextStyle(height: 1.5, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        height: 1.5,
+                        fontWeight: FontWeight.bold,
+                      ),
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -216,16 +220,27 @@ class _SobreLayoutState extends State<SobreLayout> {
               ),
             ),
 
-            ListTile(leading: Icon(Icons.home), title: Text('Home'), onTap: () {
+            ListTile(
+              leading: Icon(Icons.home),
+              title: Text('Home'),
+              onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/home');
-              },),
-            ListTile(leading: Icon(Icons.book), title: Text('Síntese'), onTap: () {
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.book),
+              title: Text('Síntese'),
+              onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/sintese');
-              },),
+              },
+            ),
             ListTile(
               leading: Icon(Icons.info),
               title: Text('Sobre'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 //Navigator.pushNamed(context, '/sobre');
               },
             ),

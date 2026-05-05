@@ -130,7 +130,8 @@ class _HomeState extends State<Home> {
                             ),
                             Text(
                               item["subtitle"],
-                              style: TextStyle(color: Colors.white70), softWrap: true,
+                              style: TextStyle(color: Colors.white70),
+                              softWrap: true,
                             ),
                           ],
                         ),
@@ -390,7 +391,10 @@ class _HomeState extends State<Home> {
                     margin: EdgeInsets.only(bottom: 12),
                     child: Text(
                       'Desenvolvido por Nelson Manuel Garcia, Desenvolvedor de Software.',
-                      style: TextStyle(height: 1.5, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        height: 1.5,
+                        fontWeight: FontWeight.bold,
+                      ),
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -499,6 +503,7 @@ class _HomeState extends State<Home> {
         title: Text(titulo),
         backgroundColor: Colors.deepPurple,
         titleTextStyle: TextStyle(color: Colors.white),
+        foregroundColor: Colors.white,
       ),
 
       body: IndexedStack(index: _currentIndex, children: pages),
@@ -514,10 +519,7 @@ class _HomeState extends State<Home> {
 
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.book),
-            label: 'Sintese',
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Sintese'),
           BottomNavigationBarItem(icon: Icon(Icons.info), label: 'Sobre'),
         ],
       ),
@@ -553,6 +555,7 @@ class _HomeState extends State<Home> {
               leading: Icon(Icons.home),
               title: Text('Home'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 //Navigator.pushNamed(context, '/home');
               },
             ),
@@ -560,6 +563,7 @@ class _HomeState extends State<Home> {
               leading: Icon(Icons.book),
               title: Text('Síntese'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/sintese');
               },
             ),
@@ -567,6 +571,7 @@ class _HomeState extends State<Home> {
               leading: Icon(Icons.info),
               title: Text('Sobre'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/sobre');
               },
             ),

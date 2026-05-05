@@ -12,6 +12,7 @@ class Capitulo3Codigos extends StatelessWidget {
         title: Text(titulo),
         backgroundColor: Colors.deepPurple,
         titleTextStyle: TextStyle(color: Colors.white),
+        foregroundColor: Colors.white,
       ),
 
       body: Column(
@@ -293,13 +294,28 @@ class Capitulo3Codigos extends StatelessWidget {
               ),
             ),
 
-            ListTile(leading: Icon(Icons.home), title: Text('Home')),
-            ListTile(leading: Icon(Icons.book), title: Text('Síntese')),
             ListTile(
-              leading: Icon(Icons.view_list),
+              leading: Icon(Icons.home),
+              title: Text('Home'),
+              onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
+                Navigator.pushNamed(context, '/home');
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.book),
+              title: Text('Síntese'),
+              onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
+                Navigator.pushNamed(context, '/sintese');
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.info),
               title: Text('Sobre'),
               onTap: () {
-                Navigator.pushNamed(context, '/');
+                Navigator.pop(context); // 👈 fecha drawer
+                Navigator.pushNamed(context, '/sobre');
               },
             ),
           ],

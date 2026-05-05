@@ -12,6 +12,7 @@ class SinteseLayout extends StatelessWidget {
         title: Text(titulo),
         backgroundColor: Colors.deepPurple,
         titleTextStyle: TextStyle(color: Colors.white),
+        foregroundColor: Colors.white,
       ),
 
       body: Column(
@@ -199,6 +200,7 @@ class SinteseLayout extends StatelessWidget {
               leading: Icon(Icons.home),
               title: Text('Home'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/home');
               },
             ),
@@ -206,6 +208,7 @@ class SinteseLayout extends StatelessWidget {
               leading: Icon(Icons.book),
               title: Text('Síntese'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 //Navigator.pushNamed(context, '/sintese');
               },
             ),
@@ -213,6 +216,7 @@ class SinteseLayout extends StatelessWidget {
               leading: Icon(Icons.info),
               title: Text('Sobre'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/sobre');
               },
             ),

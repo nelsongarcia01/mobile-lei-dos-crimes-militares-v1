@@ -4,8 +4,18 @@ class SeccaoCapitulo2Layout extends StatelessWidget {
   final titulo = 'Lei dos Crimes Militares Angolano';
 
   final List seccoes = [
-    {"id": 1, "titulo": "Secção I", "subtitulo": "Das Penas", "rota": "/capitulo2-seccao1-codigos"},
-    {"id": 2, "titulo": "Secção II", "subtitulo": "Dos Crimes Em Especial", "rota": "/capitulo2-seccao2-codigos"},
+    {
+      "id": 1,
+      "titulo": "Secção I",
+      "subtitulo": "Das Penas",
+      "rota": "/capitulo2-seccao1-codigos",
+    },
+    {
+      "id": 2,
+      "titulo": "Secção II",
+      "subtitulo": "Dos Crimes Em Especial",
+      "rota": "/capitulo2-seccao2-codigos",
+    },
   ];
 
   SeccaoCapitulo2Layout({super.key});
@@ -17,6 +27,7 @@ class SeccaoCapitulo2Layout extends StatelessWidget {
         title: Text(titulo),
         backgroundColor: Colors.deepPurple,
         titleTextStyle: TextStyle(color: Colors.white),
+        foregroundColor: Colors.white,
       ),
 
       body: Column(
@@ -103,16 +114,27 @@ class SeccaoCapitulo2Layout extends StatelessWidget {
               ),
             ),
 
-            ListTile(leading: Icon(Icons.home), title: Text('Home'), onTap: () {
-                //Navigator.pushNamed(context, '/home');
-              },),
-            ListTile(leading: Icon(Icons.book), title: Text('Síntese'), onTap: () {
+            ListTile(
+              leading: Icon(Icons.home),
+              title: Text('Home'),
+              onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
+                Navigator.pushNamed(context, '/home');
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.book),
+              title: Text('Síntese'),
+              onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/sintese');
-              },),
+              },
+            ),
             ListTile(
               leading: Icon(Icons.view_list),
               title: Text('Sobre'),
               onTap: () {
+                Navigator.pop(context); // 👈 fecha drawer
                 Navigator.pushNamed(context, '/sobre');
               },
             ),
