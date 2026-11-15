@@ -1,12 +1,12 @@
-import 'package:app06/app/pages/codigos/capitulo2_seccao1_codigos.dart';
-import 'package:app06/app/pages/codigos/capitulo2_seccao2_codigos.dart';
-import 'package:app06/app/pages/codigos/capitulo3_codigos.dart';
-import 'package:app06/app/pages/codigos/capitulo1_codigos.dart';
-import 'package:app06/app/pages/home.dart';
-import 'package:app06/app/pages/seccoes/seccao_capitulo2.dart';
-import 'package:app06/app/pages/sintese.dart';
-import 'package:app06/app/pages/sobre.dart';
-import 'package:app06/app/pages/welcome.dart';
+import 'package:lei_crimes_militares_angola/app/pages/codigos/capitulo2_seccao1_codigos.dart';
+import 'package:lei_crimes_militares_angola/app/pages/codigos/capitulo2_seccao2_codigos.dart';
+import 'package:lei_crimes_militares_angola/app/pages/codigos/capitulo3_codigos.dart';
+import 'package:lei_crimes_militares_angola/app/pages/codigos/capitulo1_codigos.dart';
+import 'package:lei_crimes_militares_angola/app/pages/home.dart';
+import 'package:lei_crimes_militares_angola/app/pages/seccoes/seccao_capitulo2.dart';
+import 'package:lei_crimes_militares_angola/app/pages/sintese.dart';
+import 'package:lei_crimes_militares_angola/app/pages/sobre.dart';
+import 'package:lei_crimes_militares_angola/app/pages/welcome.dart';
 import 'package:flutter/material.dart';
 
 void main() {

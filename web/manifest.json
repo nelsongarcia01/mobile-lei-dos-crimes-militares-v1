@@ -1,11 +1,11 @@
 {
-    "name": "app06",
-    "short_name": "app06",
+    "name": "Lei dos Crimes Militares — Angola",
+    "short_name": "Crimes Militares",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Lei dos Crimes Militares (Angola), para consulta no telemóvel.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

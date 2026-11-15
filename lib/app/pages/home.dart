@@ -381,7 +381,7 @@ class _HomeState extends State<Home> {
                   Container(
                     margin: EdgeInsets.only(bottom: 12),
                     child: Text(
-                      '© Todos os direitos reservados a Nelson Manuel Garcia.',
+                      '© 2026 Nelson Manuel Garcia · Código aberto (licença MIT).',
                       style: TextStyle(height: 1.5),
                       textAlign: TextAlign.center,
                     ),
@@ -446,7 +446,7 @@ class _HomeState extends State<Home> {
                   // 🌐 LINKEDIN
                   GestureDetector(
                     onTap: () => openLink(
-                      'https://www.linkedin.com/in/nelson-manuel-garcia-80424234a',
+                      'https://www.linkedin.com/in/nelsonmanuelgarcia',
                     ),
                     child: Row(
                       children: [
